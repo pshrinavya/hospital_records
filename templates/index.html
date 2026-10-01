@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head >
+  
+  <title>Smart Hospital</title>
+
+  <link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='style.css') }}"
+>
+
+ 
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="logo">🏥 Smart Hospital</div>
+
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#records">Records</a>
+      <a href="#analytics">Analytics</a>
+    </div>
+  </div>
+
+  <section class="hero">
+
+    <div class="hero-text">
+      <h1>Smart Hospital Record & Analytics System</h1>
+
+      <p>
+        A modern healthcare dashboard designed using HTML and CSS.
+        This system helps in managing patient records, disease analytics,
+        doctor workload analysis, and hospital insights.
+      </p>
+
+      <a href="#records" class="btn">Explore Dashboard</a>
+    </div>
+
+    <img src="https://cdn-icons-png.flaticon.com/512/2785/2785482.png" alt="Hospital Illustration">
+
+  </section>
+
+  <div class="container">
+
+    <h2 class="section-title" id="features"> System Features</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Patient Records</h3>
+        <p>Store and manage patient details such as diseases, doctors, admission dates, and billing information.</p>
+      </div>
+
+      <div class="card">
+        <h3>Disease Analysis</h3>
+        <p>Analyze disease trends and identify the most common illnesses in the hospital.</p>
+      </div>
+
+      <div class="card">
+        <h3>Doctor Workload</h3>
+        <p>Track the number of patients handled by each doctor for better workload management.</p>
+      </div>
+
+      <div class="card">
+        <h3>Revenue Analytics</h3>
+        <p>Monitor total revenue, average billing, and hospital financial performance.</p>
+      </div>
+
+    </div>
+
+   <div class="search-section" id="records">
+
+  <h2> Search Patient Records</h2>
+
+  <form class="search-box" action="/search" method="POST">
+
+    <input
+      type="text"
+      name="search"
+      placeholder="Enter Patient Name or Disease"
+      required
+    >
+
+    <button type="submit">Search</button>
+
+  </form>
+
+</div>
+
+      <div class="patient-table">
+
+     <table>
+
+  <tr>
+    <th>Patient ID</th>
+    <th>Name</th>
+    <th>Disease</th>
+    <th>Doctor</th>
+    <th>Department</th>
+    <th>Days Admitted</th>
+    <th>Bill Amount</th>
+  </tr>
+
+  {% if patients %}
+
+    {% for patient in patients %}
+
+    <tr>
+      <td>{{ patient.Patient_ID }}</td>
+      <td>{{ patient.Name }}</td>
+      <td>{{ patient.Disease }}</td>
+      <td>{{ patient.Doctor }}</td>
+      <td>{{ patient.Department }}</td>
+      <td>{{ patient.Days_Admitted }}</td>
+      <td>₹{{ patient.Bill_Amount }}</td>
+    </tr>
+
+    {% endfor %}
+
+  {% endif %}
+
+</table>
+
+      </div>
+
+    </div>
+
+    <div class="analytics" id="analytics">
+
+      <h2 class="section-title"> Hospital Analytics</h2>
+
+      <div class="analytics-grid">
+
+        <div class="analytics-card">
+          <h2>40+</h2>
+          <p>Total Patients</p>
+        </div>
+
+        <div class="analytics-card">
+          <h2>12</h2>
+          <p>Diseases Recorded</p>
+        </div>
+
+        <div class="analytics-card">
+          <h2>8</h2>
+          <p>Doctors Available</p>
+        </div>
+
+        <div class="analytics-card">
+          <h2>₹8L+</h2>
+          <p>Total Revenue</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="footer">
+    © 2026 Smart Hospital Analytics System | Designed by Aahana Sharma & P.Shrinavya
+  </div>
+  <div class="graphs-section">
+
+  <h2 class="section-title"> Analytics Graphs</h2>
+<div class="graphs-section">
+
+
+
+  <div class="graph-grid">
+
+    <img src="{{ url_for('static', filename='disease_analysis.png') }}">
+
+    <img src="{{ url_for('static', filename='doctor_workload.png') }}">
+
+    <img src="{{ url_for('static', filename='readmission_analysis.png') }}">
+
+    <img src="{{ url_for('static', filename='department_wise.png') }}">
+
+  </div>
+
+</div>
+
+  
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
