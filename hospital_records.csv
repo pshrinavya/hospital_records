@@ -1,0 +1,41 @@
+Patient_ID,Name,Age,Gender,Disease,Department,Doctor,Admission_Date,Discharge_Date,Days_Admitted,Bill_Amount,Discharge_Status,Readmission
+P101,Aarav Sharma,45,Male,Diabetes,Endocrinology,Dr. Mehta,2026-05-01,2026-05-06,5,25000,Recovered,No
+P102,Ananya Verma,30,Female,Dengue,General Medicine,Dr. Rao,2026-05-03,2026-05-10,7,18000,Recovered,No
+P103,Rohan Patel,60,Male,Heart Disease,Cardiology,Dr. Kapoor,2026-05-02,2026-05-15,13,95000,Under Observation,Yes
+P104,Sneha Reddy,22,Female,Typhoid,General Medicine,Dr. Rao,2026-05-05,2026-05-11,6,14000,Recovered,No
+P105,Vikram Singh,50,Male,Pneumonia,Pulmonology,Dr. Khan,2026-05-04,2026-05-14,10,40000,Recovered,Yes
+P106,Priya Nair,35,Female,Migraine,Neurology,Dr. Iyer,2026-05-07,2026-05-09,2,8000,Recovered,No
+P107,Arjun Das,28,Male,Fracture,Orthopedics,Dr. Sharma,2026-05-06,2026-05-13,7,32000,Recovered,No
+P108,Meera Joshi,40,Female,Asthma,Pulmonology,Dr. Khan,2026-05-08,2026-05-12,4,15000,Stable,Yes
+P109,Karan Malhotra,55,Male,Hypertension,Cardiology,Dr. Kapoor,2026-05-01,2026-05-05,4,22000,Recovered,No
+P110,Ishita Gupta,18,Female,Food Poisoning,General Medicine,Dr. Rao,2026-05-09,2026-05-11,2,6000,Recovered,No
+P111,Ritika Sen,27,Female,Malaria,General Medicine,Dr. Rao,2026-05-10,2026-05-16,6,17000,Recovered,No
+P112,Aditya Verma,33,Male,Diabetes,Endocrinology,Dr. Mehta,2026-05-11,2026-05-18,7,28000,Stable,Yes
+P113,Neha Kapoor,41,Female,Asthma,Pulmonology,Dr. Khan,2026-05-12,2026-05-17,5,21000,Recovered,No
+P114,Raj Malhotra,65,Male,Heart Disease,Cardiology,Dr. Kapoor,2026-05-02,2026-05-20,18,120000,Critical,Yes
+P115,Kavya Iyer,24,Female,Typhoid,General Medicine,Dr. Rao,2026-05-13,2026-05-19,6,15000,Recovered,No
+P116,Harsh Gupta,38,Male,Pneumonia,Pulmonology,Dr. Khan,2026-05-14,2026-05-22,8,45000,Stable,Yes
+P117,Sanjana Das,29,Female,Migraine,Neurology,Dr. Iyer,2026-05-15,2026-05-17,2,9000,Recovered,No
+P118,Varun Reddy,48,Male,Hypertension,Cardiology,Dr. Kapoor,2026-05-03,2026-05-08,5,26000,Recovered,No
+P119,Diya Sharma,19,Female,Dengue,General Medicine,Dr. Rao,2026-05-16,2026-05-24,8,22000,Recovered,No
+P120,Rahul Nair,52,Male,Diabetes,Endocrinology,Dr. Mehta,2026-05-17,2026-05-23,6,31000,Stable,Yes
+P121,Aisha Khan,31,Female,Fracture,Orthopedics,Dr. Sharma,2026-05-18,2026-05-27,9,36000,Recovered,No
+P122,Vivek Joshi,44,Male,Asthma,Pulmonology,Dr. Khan,2026-05-19,2026-05-23,4,19000,Recovered,No
+P123,Nikita Patel,36,Female,Food Poisoning,General Medicine,Dr. Rao,2026-05-20,2026-05-22,2,7000,Recovered,No
+P124,Akash Singh,58,Male,Heart Disease,Cardiology,Dr. Kapoor,2026-05-21,2026-05-30,9,98000,Under Observation,Yes
+P125,Pooja Mehra,26,Female,Malaria,General Medicine,Dr. Rao,2026-05-22,2026-05-29,7,18000,Recovered,No
+P126,Rohan Nanda,47,Male,Pneumonia,Pulmonology,Dr. Khan,2026-05-23,2026-05-31,8,50000,Stable,Yes
+P127,Simran Kaur,23,Female,Migraine,Neurology,Dr. Iyer,2026-05-24,2026-05-26,2,8500,Recovered,No
+P128,Manoj Kumar,62,Male,Hypertension,Cardiology,Dr. Kapoor,2026-05-25,2026-05-30,5,24000,Recovered,No
+P129,Tanya Arora,34,Female,Diabetes,Endocrinology,Dr. Mehta,2026-05-26,2026-06-01,6,29000,Recovered,No
+P130,Kunal Sharma,39,Male,Dengue,General Medicine,Dr. Rao,2026-05-27,2026-06-03,7,20000,Recovered,No
+P131,Ankit Yadav,46,Male,Asthma,Pulmonology,Dr. Khan,2026-05-28,2026-06-02,5,23000,Stable,Yes
+P132,Shruti Rao,21,Female,Typhoid,General Medicine,Dr. Rao,2026-05-29,2026-06-04,6,16000,Recovered,No
+P133,Dev Patel,54,Male,Heart Disease,Cardiology,Dr. Kapoor,2026-05-30,2026-06-10,11,105000,Critical,Yes
+P134,Ira Sharma,32,Female,Fracture,Orthopedics,Dr. Sharma,2026-05-31,2026-06-08,8,34000,Recovered,No
+P135,Aman Verma,37,Male,Malaria,General Medicine,Dr. Rao,2026-06-01,2026-06-06,5,17500,Recovered,No
+P136,Rhea Nair,28,Female,Migraine,Neurology,Dr. Iyer,2026-06-02,2026-06-04,2,9200,Recovered,No
+P137,Yash Malhotra,49,Male,Pneumonia,Pulmonology,Dr. Khan,2026-06-03,2026-06-11,8,47000,Stable,Yes
+P138,Kiara Gupta,25,Female,Diabetes,Endocrinology,Dr. Mehta,2026-06-04,2026-06-09,5,26000,Recovered,No
+P139,Soham Das,57,Male,Hypertension,Cardiology,Dr. Kapoor,2026-06-05,2026-06-12,7,30000,Recovered,No
+P140,Aahana Reddy,20,Female,Dengue,General Medicine,Dr. Rao,2026-06-06,2026-06-14,8,21000,Recovered,No
